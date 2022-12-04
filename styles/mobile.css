@@ -305,7 +305,7 @@ html {
       padding-bottom: 20%;
     }
     #about-section-header {
-      background-image: url("../img/about-header.jpg");
+      background-image: url("../img/about/header.jpg");
       background-position: right;
     }
 }
