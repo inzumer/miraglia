@@ -29,7 +29,16 @@
     height: 100%;
     object-fit: cover;
   }
-
+  .about-quote-paragraph {
+    width: 100%;
+    padding: 5% 15% 0% 15%;
+    font-size: 3.5em;
+  }
+  #quote-name {
+    width: 100%;
+    padding: 2% 15% 5% 15%;
+    font-size: 2.5em;
+  }
   #info-quote {
     width: 100%;
     text-align: left;
