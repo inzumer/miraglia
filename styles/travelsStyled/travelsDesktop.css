@@ -1,0 +1,15 @@
+/*Section*/
+.section--card{
+    background-color: #02161D;
+}
+
+/*Section title*/
+.paragraph-section{
+    display: flex;
+    align-items: center;
+}
+
+/*Footer*/
+.footer{
+    background-color: #02161D;
+}

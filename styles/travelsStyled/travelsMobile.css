@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --black-color: #02161D;
+  --gray-color: #4a4a48;
+  --white-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 62.5%;
+  color: var(--white-color);
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 320px) {
+
+  /* Header */
+  .fixed-top {
+    background-color: var(--black-color);
+  }
+
+  .nav-link {
+    font-size: 1.6em;
+  }
+
+  /* Main */  
+  .section-header {
+    height: 75vh;
+    width: 100vw;
+    background-image: url("../img/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card-titles-container { 
+    padding-top: 50%;
+    padding-left: 8%;
+  }
+
+  .card-container {
+    display: none;
+  }
+
+  .title-section {
+    font-size: 4.8em;    
+    color: var(--white-color);
+  }
+
+  /* Section hots */
+  .card-travels-container--title {
+    height: 100px;
+    padding: 45px 20px;
+    margin: 0;
+    font-size: 3.2em;
+    background-color: var(--black-color);
+    color: var(--white-color);
+  }
+
+  .card-travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 180px;
+  }
+
+  .card-title {
+    font-size: 2.4em;
+    color: var(--white-color);
+  }
+
+  .card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--black-color);
+    background-color: var(--white-color);
+  }
+
+  .card-footer {
+    display: none;
+  }
+
+  .card-button:hover {
+    color: white;
+    background-color: black;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+
+  /* Sections populars */
+  .title-section{
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .section-populars {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    background-image: url("../img/section-two.png");
+    background-size: cover;
+  }
+
+  .section-populars > .title-section {
+    padding-top: 50px;
+    font-size: 3.2em;
+    text-align: center;
+  }
+
+  .paragraph-section {
+    margin: 20px auto;
+    width: 80%;
+    font-size: 1.4em;
+    text-align: center;
+    color: var(--white-color);
+  }
+
+  /* Footer */
+  .footer {
+    background-color: var(--black-color);
+    color: var(--white-color);
+  }
+
+  .section-footer--links > ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .section-footer--links > ul > li {
+    padding: 16px;
+    text-align: center;
+  }
+
+  .section-footer--links > ul > li > a {
+    text-decoration: none;
+    font-size: 2.0rem;
+  }
+
+  .section-footer--social > p {
+    padding: 50px;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .section-footer--social-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 40px;
+    width: 60%;
+  }
+}
