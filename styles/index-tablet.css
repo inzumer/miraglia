@@ -1,0 +1,136 @@
+/*
+1.Posicionamiento 
+2.Modelo de caja(Ej: Medidas del box model, Margin, Padding, Etc.)
+3.Tipografia
+4.Visuales
+5.Otros 
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --black-color: #02161D;
+  --gray-color: #4a4a48;
+  --white-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 62.5%;
+  color: var(--white-color);
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+
+  /* Main */  
+  .card-titles-container {
+    padding-top: 25%;
+    padding-left: 8%;
+  }
+
+  /* Section hots */
+  .card-travel-container {
+    display: flex;
+  }
+
+  .card-travel {
+    flex-direction: column;
+    width: 33.33%;
+    height: 300px;
+  }
+
+  .card-travel {
+    padding-top: 24px;
+  }
+
+  #new-zealand {
+    background-position: bottom;
+  }
+
+  #indonesia {
+    background-position: bottom;
+  }
+
+  #canada {
+    background-position: bottom;
+  }
+
+  /* Sections populars */
+  .section-populars {
+    height: auto;
+    padding: 30px 0;
+  }   
+
+  .section-populars-container {
+    display: flex;
+    padding: 30px;
+  }
+
+  .section-populars-container .title-section {
+    width: 200px;
+    font-size: 4.2em;
+  }
+
+  .paragraph-section {
+    padding-top: 10px;
+    width: 50%;
+    text-align: left;
+  }
+
+  .section-populars-container--cards {
+    display: flex;
+    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-populars-container--cards > .card-travel {
+    justify-content: end;
+    align-items: center;
+    height: 350px;
+  }
+
+  #norway {
+    background-image: url("../img/norway.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #guatemala {
+    background-image: url("../img/guatemala.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #peru {
+    background-image: url("../img/peru.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Sections videos */
+  .section-videos > .card-button {
+    width: 35%;
+  }
+
+  .paragraph-section {
+    text-align: center;
+  }
+
+  .section-videos-container{
+    display: flex;
+    gap: 15px;
+    padding: 25px;
+  }
+}

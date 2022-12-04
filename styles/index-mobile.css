@@ -48,7 +48,7 @@ html {
   }
 
   .card-titles-container { 
-    padding-top: 50%;
+    padding-top:  250px;;
     padding-left: 8%;
   }
 
@@ -125,7 +125,7 @@ html {
   }
 
   /* Sections populars */
-  .title-section{
+  .section-populars-container > .title-section{
     padding-top: 30px;
     text-align: center;
   }
@@ -152,7 +152,7 @@ html {
     color: var(--white-color);
   }
 
-  .section-populars > .card-travel {
+  .section-populars-container--cards > .card-travel {
     display: flex;
     justify-content: center;
     align-items: self-end;
@@ -165,7 +165,7 @@ html {
     border-radius: 5px;
   }
 
-  .section-populars > .card-travel:hover {
+  .section-populars-container--cards > .card-travel:hover {
     filter: brightness(0.5);
     animation-delay: 3s;
   }
@@ -187,6 +187,10 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  #morocco {
+    display: none;
+  }
    
   /* Sections videos */
   .section-videos {
@@ -198,18 +202,18 @@ html {
     background-repeat: no-repeat;
   }
 
-  .section-videos > .title-section {
+  .section-videos-container--text > .title-section {
     margin: 20px auto;
     text-align: center;  
     width: 80%;
   }
 
-  .section-videos > .card-button {
+  .section-videos-container--text > .card-button {
     width: 60%;
     margin: auto;
   }
 
-  .section-videos > .card-button > img {
+  .section-videos-container--text > .card-button > img {
     margin: 10px;
   }
 
