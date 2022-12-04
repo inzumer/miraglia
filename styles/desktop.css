@@ -1,0 +1,38 @@
+@media screen and (min-width: 996px) {
+  /* About - General */ 
+  .about-card-titles-container { 
+    padding-left: 15%;
+    padding-top: 20%;
+  }
+  .about-card-titles-container > h1 { 
+    text-align: left;
+    font-size: 6em;
+  }
+  .about-card-subtitle > span {
+    display: inline;
+    font-size: 3em;
+  }
+  .about-info-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-info-section-title {
+    text-align: left;
+    padding: 15% 10% 0% 33%;
+    font-size: 4.5em;
+  }
+  .about-info-section-title > span {
+    display: block;
+  }
+  .about-trekking > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #info-quote {
+    width: 100%;
+    text-align: left;
+    padding: 5% 10% 15% 33%;
+  }
+}
