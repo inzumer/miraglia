@@ -81,7 +81,7 @@ html {
   }
 
   #morocco {
-    display: block;
+    display: flex;
     background-image: url("../img/morocco.jpg");
     background-size: auto;
     background-position: center;
