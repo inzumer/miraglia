@@ -1,0 +1,100 @@
+/*
+1.Posicionamiento 
+2.Modelo de caja(Ej: Medidas del box model, Margin, Padding, Etc.)
+3.Tipografia
+4.Visuales
+5.Otros
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --black-color: #02161D;
+  --gray-color: #4a4a48;
+  --white-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 62.5%;
+  color: var(--white-color);
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 320px) {
+
+  /* About - General */
+  .about-card-titles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-card-subtitle>span {
+    margin: 0px auto;
+    font-size: 1.8em;
+    text-align: center;
+    color: var(--white-color);
+    display: block;
+  }
+
+  .about-info-section {
+    background-color: var(--black-color);
+    color: var(--white-color);
+  }
+
+  .about-quote-section {
+    background-color: var(--white-color);
+    color: var(--black-color);
+  }
+
+  .about-info-section-title {
+    font-size: 3.2em;
+    padding-top: 8%;
+    text-align: center;
+  }
+
+  .about-quote-paragraph {
+    margin: 20px auto;
+    width: 80%;
+    font-size: 2.4em;
+    text-align: center;
+    padding-top: 20%;
+    color: var(--black-color);
+  }
+
+  .about-trekking>img {
+    width: 100%;
+    height: 25%;
+    object-fit: cover;
+  }
+
+  #info-quote {
+    font-size: 1.6em;
+    padding-bottom: 8%;
+  }
+
+  #quote-name {
+    margin: 20px auto;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: var(--black-color);
+    text-align: center;
+    width: 80%;
+    padding-bottom: 20%;
+  }
+
+  #about-section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/about/header.jpg");
+    background-position: right;
+  }
+}
