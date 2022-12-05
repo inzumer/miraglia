@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+  .section-header {
+    background-image: url("../img/travels/home-desktop.png");
+  }
+
+  .section-info-container {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .section-info-container > div > .title-section {
+    font-size: 6.4em;
+  }
+
+  .section-info-container > div > .paragraph-section{
+    font-size: 1.6em;
+  }
+
+  .section-info-container > div:nth-child(1) {
+    justify-content: left;
+  }
+  
+  .section-info-container > div:nth-child(1) > .title-section {
+    width: min-content;
+  }
+
+  .section-info-container > div:nth-child(1) > .paragraph-section{
+    width: 40%;
+  }
+
+  .section-info-container > .img{
+    margin: 20px 0;
+    max-width: 570px;
+    max-height: 520px;
+  }
+
+  #one {
+    background-image: url('../img/travels/five.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #two {
+    background-image: url('../img/travels/six.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}

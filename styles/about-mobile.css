@@ -36,7 +36,7 @@ html {
     align-items: center;
   }
 
-  .about-card-subtitle>span {
+  .about-card-subtitle {
     margin: 0px auto;
     font-size: 1.8em;
     text-align: center;

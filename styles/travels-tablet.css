@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --black-color: #02161D;
+  --gray-color: #4a4a48;
+  --white-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 62.5%;
+  color: var(--white-color);
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-info {
+    padding: 30px;
+  }
+
+  .section-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .section-info-container:nth-child(3) {
+    flex-direction: row-reverse;
+   }
+
+  .section-info-container > div {
+    width: 80%;
+  }
+
+  
+  .section-info-container > div > .title-section {
+    text-align: left;
+    font-size: 4.8em;
+  }
+
+  .section-info-container > div > .paragraph-section{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+  }
+
+
+
+  .section-info-container > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .section-info-container > div:nth-child(1) > .title-section {
+    text-align: left;
+    font-size: 4.8em;
+  }
+
+  .section-info-container > div:nth-child(1) > .paragraph-section{
+    text-align: left;
+  }
+
+  .section-info-container > .img{
+    margin: 20px 0;
+    width: 250px;
+    height: 440px;
+  }
+
+  #one {
+    background-image: url('../img/travels/three.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #two {
+    background-image: url('../img/travels/four.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}
