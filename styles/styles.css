@@ -122,6 +122,7 @@ html {
   }
 
   .card-travel-title {
+    text-align: center;
     font-size: 2.4em;
     padding: 24px;
   }
@@ -878,6 +879,21 @@ html {
   .about-info-section--container {
     margin: auto;
     width: 80%;
+  }
+
+  #card-travel-container--home {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--tertiary-color);
   }
 
   /* Travels Page */
